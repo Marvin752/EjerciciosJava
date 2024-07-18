@@ -4,7 +4,6 @@ import java.util.Scanner;
 class Metodos {
 
     public static void holamundo() {
-        System.out.println("\n");
         System.out.println("Mira mamá, mi primer programa en java!!!");
         System.out.println("Hola mundo!");
         pausar();
@@ -17,7 +16,6 @@ class Metodos {
         System.out.print("Ingrese otro numero para sumar: ");
         b = scanner.nextInt();
         z = a + b;
-        System.out.println("\n");
         System.out.printf("El resultado de la suma es: " + z);
         pausar();
     }
@@ -27,7 +25,6 @@ class Metodos {
         System.out.print("Ingrese un numero para ver si es par o impar: ");
         a = scanner.nextInt();
         y = a % 2;
-        System.out.println("\n");
         if (y == 0) {
             System.out.println("El número es par");
         } else {
@@ -58,7 +55,7 @@ class Metodos {
             y = x * i;
             System.out.println("| " + x + " * " + i + " = " + y);
         }
-        System.out.println("\n");
+        System.out.println();
         System.out.println("Descendente");
         for (int i = 10; i >= 1; i--) {
             y = x * i;
